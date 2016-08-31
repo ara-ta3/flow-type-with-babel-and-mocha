@@ -18,7 +18,8 @@
   },
   "scripts": {
     "test": "mocha --compilers js:espower-babel/guess --recursive ./test/",
-    "compile": "babel --plugins transform-flow-strip-types --out-dir lib --presets es2015 src"
+    "compile": "babel --plugins transform-flow-strip-types --out-dir lib --presets es2015 src",
+    "flow": "flow"
   },
   "author": "",
   "license": "MIT"

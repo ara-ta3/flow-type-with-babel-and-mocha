@@ -1,9 +1,13 @@
 /* @flow */
-class Hoge {
+class HogeImpl {
     a: number;
     constructor(prop: number) {
         this.a = prop;
     }
+
+    xxx(): number {
+        return this.a;
+    }
 }
 
-module.exports = Hoge;
+module.exports = HogeImpl;
